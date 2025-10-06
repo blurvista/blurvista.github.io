@@ -9,19 +9,19 @@
 
 ## 📖 Table of Contents
 
-- [About](#about)
-- [Core Philosophy](#core-philosophy)
-- [Key Features](#key-features)
-- [Getting Started](#getting-started)
-- [Detailed Usage Guide](#detailed-usage-guide)
-  - [Uploading Images](#uploading-images)
-  - [Editing Tools](#editing-tools)
-  - [Downloading Results](#downloading-results)
-- [Use Cases](#use-cases)
-- [Technical Specifications](#technical-specifications)
-- [Privacy & Security](#privacy--security)
+- [About](#-about)
+- [Core Philosophy](#-core-philosophy)
+- [Key Features](#-key-features)
+- [Getting Started](#-getting-started)
+- [Detailed Usage Guide](#-detailed-usage-guide)
+  - [Uploading Images](#-uploading-images)
+  - [Editing Tools](#-editing-tools)
+  - [Downloading Results](#-downloading-results)
+- [Use Cases](#-use-cases)
+- [Technical Specifications](#-technical-specifications)
+- [Privacy & Security](#-privacy--security)
 - [FAQ](#-faq)
-- [License](#license)
+- [License](#-license)
 
 
 ## 🎯 About

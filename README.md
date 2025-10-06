@@ -2,6 +2,9 @@
 
 > A powerful, free, and completely private web tool for image censorship that never uploads your photos
 
+[![Website](https://img.shields.io/badge/Website-blurvista.com-blue?style=for-the-badge)](https://blurvista.com)
+[![Privacy First](https://img.shields.io/badge/Privacy-100%25%20Local-green?style=for-the-badge)](https://blurvista.com)
+[![No Upload](https://img.shields.io/badge/Upload-Zero%20Files-orange?style=for-the-badge)](https://blurvista.com)
 
 
 ## 📖 Table of Contents

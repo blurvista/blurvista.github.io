@@ -23,6 +23,7 @@
 - [FAQ](#faq)
 - [License](#license)
 
+
 ## 🎯 About
 
 **BlurVista** is a cutting-edge [Online Face Blur](https://blurvista.com) tool that empowers users to protect sensitive information in images without compromising privacy. Whether you need to [Blur Faces on Photo Online](https://blurvista.com), redact license plates, or obscure private document details, BlurVista delivers professional results instantly—all within your browser.[4][5][6]

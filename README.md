@@ -20,7 +20,7 @@
 - [Use Cases](#use-cases)
 - [Technical Specifications](#technical-specifications)
 - [Privacy & Security](#privacy--security)
-  [FAQ](#faq)
+- [FAQ](#faq)
 - [License](#license)
 
 

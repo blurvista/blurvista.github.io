@@ -249,7 +249,7 @@ BlurVista is committed to providing free, accessible privacy tools for everyone.
 
 ***
 
-**Ready to protect your privacy?** Try [Online Face Blur](https://blurvista.com) and [Blur Faces on Photo Online](https://blurvista.com) with BlurVista today—no registration, no uploads, just instant privacy protection.
+**Ready to protect your privacy?** Try [Online Image Blur](https://blurvista.com) and [Blur Faces on Image Online](https://blurvista.com) with BlurVista today—no registration, no uploads, just instant privacy protection.
 
 ***
 

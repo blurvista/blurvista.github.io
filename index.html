@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BlurVista - Privacy-Focused Online Image Blurring Tool</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Are my photos uploaded anywhere?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. All editing happens locally on your device within your browser. Your images never leave your device which ensures complete privacy."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I blur multiple faces at once?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, BlurVista features automatic AI-based face detection that instantly identifies and blurs all faces in a photo with customizable sensitivity."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What image formats are supported?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can upload images in PNG, JPG, WEBP, and GIF formats up to 10MB in size. Edited images can be downloaded in PNG, JPG, or WEBP formats."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is BlurVista free to use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, BlurVista is 100% free with no subscriptions, hidden fees, or premium tiers. Use it anytime without limits or account registration."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is BlurVista secure and private?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolutely. All image processing occurs directly in your browser. BlurVista does not upload, store, or share your images or data with any servers or third parties."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I customize blur intensity or pixelation size?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Each blur or pixelate selection lets you adjust the intensity or pixel size individually for precision privacy control."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does BlurVista work on mobile devices?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, BlurVista runs smoothly on all modern mobile and desktop browsers - no installations or downloads required."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I edit multiple areas on an image?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. You can create multiple shapes for selective blurring or pixelation, move and resize them independently, offering fine-grained editing."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>BlurVista</h1>
+    <p>
+      A Comprehensive, Privacy-First Online Tool for Blurring and Pixelating Images Directly in Your Browser
+    </p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#guide">How to Use</a></li>
+      <li><a href="#use-cases">Use Cases</a></li>
+      <li><a href="#tech-architecture">Technical Architecture</a></li>
+      <li><a href="#privacy-security">Privacy & Security</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#license">License</a></li>
+    </ul>
+  </nav>
+
+  <section id="introduction">
+    <h2>Introduction</h2>
+    <p>
+      In the increasingly digital world where image sharing is ubiquitous, protecting sensitive information within photos has become essential. Whether you are a journalist safeguarding the identity of sources, a parent protecting your children’s privacy, or a business redacting confidential details, BlurVista offers a reliable, fast, and completely private solution for image censorship.
+    </p>
+    <p>
+      Unlike traditional photo editing tools that require uploads or complex software, BlurVista processes images directly within your web browser. This design guarantees that your photos never leave your device, eliminating risks of data leakage or unauthorized access. In addition to offering smooth Gaussian blur effects, BlurVista also provides pixelation styles for specialized redaction needs. It incorporates AI-driven face detection to automate privacy protection in multi-person photos.
+    </p>
+    <p>
+      This guide provides an in-depth overview of BlurVista, showcasing its powerful features, multiple application scenarios, technical foundation, privacy philosophy, and how you can fully leverage it to safeguard your visual data online.
+    </p>
+  </section>
+
+  <section id="features">
+    <h2>Features</h2>
+    <p>BlurVista's extensive suite of features empowers users with total control over image redaction while ensuring absolute privacy. Key highlights include:</p>
+    <ul>
+      <li><strong>Client-Side Processing for Ultimate Privacy:</strong> All operations occur locally in your browser with zero image uploads or server interactions, keeping your data secure and private.</li>
+
+      <li><strong>Multiple Censorship Styles:</strong> Choose from smooth Gaussian blur for natural softening effects or pixelation for distinct blocky censorship, catering to varied privacy needs.</li>
+
+      <li><strong>Application Modes:</strong> Apply effects to entire images in one click, focus on selective areas with precise shape tools, or utilize AI-powered automatic face detection for quick multi-face blurring.</li>
+
+      <li><strong>Shape-Based Selective Editing:</strong> Add and manipulate multiple selection shapes including rectangles, ellipses, and freehand outlines to target exactly which parts of your images to obscure.</li>
+
+      <li><strong>Customizable Intensity and Size:</strong> Adjust blur density or pixel block size for each selection individually, enabling nuanced control over privacy strength regionally within one image.</li>
+
+      <li><strong>Advanced Navigation Tools:</strong> Zoom, pan, and fit-to-screen controls allow effortless maneuvering inside images for pixel-perfect editing.</li>
+
+      <li><strong>Flexible Export Formats:</strong> Download edited images instantly in popular formats including PNG for lossless quality, JPG for smaller file sizes, and modern WEBP with superior compression.</li>
+
+      <li><strong>Cross-Platform Compatibility:</strong> Runs flawlessly on all mainstream desktop and mobile browsers, removing the need for downloads or registrations, making privacy easy to access anywhere.</li>
+
+      <li><strong>AI Face Detection:</strong> State-of-the-art browser-based face recognition adapts detection sensitivity for various photo types — from clear portraits to profile or partially obscured faces.</li>
+
+      <li><strong>Zero Data Retention:</strong> No user images or processing results are saved beyond your session. All data is handled transiently and locally.</li>
+    </ul>
+  </section>
+
+  <section id="guide">
+    <h2>How to Use BlurVista</h2>
+    <p>Using BlurVista to protect sensitive image details is straightforward and can be completed in three intuitive steps:</p>
+    <ol>
+      <li>
+        <strong>Upload Your Image:</strong> Simply drag and drop a photo onto the designated area or use the file selector. Supported image types include PNG, JPG, WEBP, and animated GIFs with a maximum uploaded file size limit of 10MB.
+      </li>
+      <li>
+        <strong>Apply Your Desired Effect:</strong> Choose between Gaussian blur and pixelation depending on your needs. Then select an application mode:
+        <ul>
+          <li><em>Full Image Mode</em> for global censorship;</li>
+          <li><em>Partial Mode</em> to manually draw shapes on regions you want blurred or pixelated;</li>
+          <li><em>Auto Face Detection Mode</em> for quick automatic detection and blurring of all faces.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Adjust and Download:</strong> Fine-tune each selection’s intensity or size. You can move, resize, or delete any selection shape to perfect your edits. Once satisfied, export your image in PNG, JPG, or WEBP formats with instant download — no wait times or server uploads.
+      </li>
+    </ol>
+    <p>
+      The interface supports zoom and pan tools to help work precisely even on detailed or high-resolution images.
+    </p>
+  </section>
+
+  <section id="use-cases">
+    <h2>Use Cases</h2>
+    <p>BlurVista caters to a wide audience and multiple industries requiring privacy-conscious image handling:</p>
+    <ul>
+      <li><strong>Journalism and Reporting:</strong> Protect source identities and sensitive visual information in investigative photo documentation without risking leaks.</li>
+      <li><strong>Parents and Families:</strong> Blur children’s faces before sharing photos on social media or public platforms to maintain privacy.</li>
+      <li><strong>Corporate and Human Resources:</strong> Anonymize employee information and personnel images in internal documents and presentations.</li>
+      <li><strong>Real Estate and Transportation:</strong> Hide license plates, property details, and faces in promotional photos or listings.</li>
+      <li><strong>Healthcare and Research:</strong> Obscure patient information in clinical images or research materials to comply with HIPAA and GDPR regulations.</li>
+      <li><strong>Legal and Law Enforcement:</strong> Redact identities and sensitive details in evidentiary photographs for ethical case handling.</li>
+      <li><strong>Content Creators and Social Media:</strong> Ensure privacy in thumbnails, posts, and public profiles by selectively blurring images before sharing.</li>
+      <li><strong>Retail and E-Commerce:</strong> Mask sensitive branding details or client information in user-submitted photos and marketing campaigns.</li>
+    </ul>
+    <p>
+      By providing a flexible, privacy-first tool, BlurVista empowers users from diverse backgrounds to protect sensitive image content confidently and legally.
+    </p>
+  </section>
+
+  <section id="tech-architecture">
+    <h2>Technical Architecture</h2>
+    <p>
+      BlurVista is designed using modern web technologies that enable privacy-first, fully client-side image processing:
+    </p>
+    <ul>
+      <li><strong>Browser-Based Canvas API:</strong> All image editing is done using HTML5 Canvas, facilitating real-time rendering and manipulation without server dependency.</li>
+      <li><strong>WebAssembly & AI Models:</strong> Face detection relies on lightweight AI models optimized to run efficiently in browsers via WebAssembly or JavaScript, allowing for privacy-conscious automated facial feature identification.</li>
+      <li><strong>State Management:</strong> The editor maintains selections and effect parameters entirely within local session memory to enable continuous instant feedback without persistent storage.</li>
+      <li><strong>Export Optimization:</strong> Image exports utilize compression libraries supporting PNG, JPG, and WEBP standards, balancing quality and file size per user needs.</li>
+      <li><strong>Compatibility:</strong> Designed to work across all major web browsers (Chrome, Firefox, Safari, Edge) and adapt responsively to desktop or mobile devices.</li>
+      <li><strong>Security Considerations:</strong> No external scripts or third-party tracking integrated, adhering fully to privacy regulations such as GDPR.</li>
+    </ul>
+  </section>
+  
+  <section id="privacy-security">
+    <h2>Privacy & Security</h2>
+    <p>
+      Protecting users' sensitive visual data is BlurVista's foundational commitment:
+    </p>
+    <ul>
+      <li>No images or data are ever uploaded to servers, ensuring zero exposure risk beyond your device.</li>
+      <li>No user accounts or personal information are collected, eliminating tracking and profiling vectors.</li>
+      <li>Temporary data is held only during the editing session and discarded thereafter.</li>
+      <li>All AI computations for face detection run locally inside the browser, avoiding external transmission of biometric data.</li>
+      <li>Open-source transparency allows users to verify privacy claims and trust the application’s security model.</li>
+    </ul>
+    <p>
+      This unmatched privacy focus makes BlurVista ideal for users with stringent data protection requirements.
+    </p>
+  </section>
+
+  <section id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <dl>
+      <dt>Are my photos uploaded anywhere?</dt>
+      <dd>No. All editing happens locally on your device within your browser. Your images never leave your device which ensures complete privacy.</dd>
+
+      <dt>Can I blur multiple faces at once?</dt>
+      <dd>Yes, BlurVista features automatic AI-based face detection that instantly identifies and blurs all faces in a photo with customizable sensitivity.</dd>
+
+      <dt>What image formats are supported?</dt>
+      <dd>You can upload images in PNG, JPG, WEBP, and GIF formats up to 10MB in size. Edited images can be downloaded in PNG, JPG, or WEBP formats.</dd>
+
+      <dt>Is BlurVista free to use?</dt>
+      <dd>Yes, BlurVista is 100% free with no subscriptions, hidden fees, or premium tiers. Use it anytime without limits or account registration.</dd>
+
+      <dt>Is BlurVista secure and private?</dt>
+      <dd>Absolutely. All image processing occurs directly in your browser. BlurVista does not upload, store, or share your images or data with any servers or third parties.</dd>
+
+      <dt>Can I customize blur intensity or pixelation size?</dt>
+      <dd>Yes. Each blur or pixelate selection lets you adjust the intensity or pixel size individually for precision privacy control.</dd>
+
+      <dt>Does BlurVista work on mobile devices?</dt>
+      <dd>Yes, BlurVista runs smoothly on all modern mobile and desktop browsers - no installations or downloads required.</dd>
+
+      <dt>Can I edit multiple areas on an image?</dt>
+      <dd>Yes. You can create multiple shapes for selective blurring or pixelation, move and resize them independently, offering fine-grained editing.</dd>
+    </dl>
+  </section>
+
+  <section id="license">
+    <h2>License</h2>
+    <p>
+      BlurVista is an open-source project dedicated to providing free, accessible, privacy-preserving image censorship tools for everyone.
+      You are free to use, modify, and distribute the software under the terms specified in the LICENSE file available in the project repository.
+    </p>
+  </section>
+
+  <footer>
+    <p>Made with ♥ for privacy-conscious users worldwide.</p>
+  </footer>
+</body>
+</html>
